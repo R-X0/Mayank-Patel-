@@ -1,3 +1,4 @@
+#app/main
 from fastapi import FastAPI, status
 from .database import Base, engine
 from .routers import routes, admin
